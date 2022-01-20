@@ -111,67 +111,67 @@ p {
 }
 
 /* Common Text Colors */
-.sh-p-color-01 {color: #004d99;}
-.sh-i-color-01 {color: #ffb570} /* !important changed for lg media*/
-.sh-i-color-02 {color: whitesmoke}
-.sh-i-color-03 {color: #ffb570}
-.sh-i-color-04 {color: #004d99;}
-.sh-h-color-01 {color: #f80;}
-.sh-h-color-02 {color: whitesmoke}
-.sh-btn-color-01 {color: rgba(147, 212, 157, .25);}
+.sw-p-color-01 {color: #004d99;}
+.sw-i-color-01 {color: #ffb570} /* !important changed for lg media*/
+.sw-i-color-02 {color: whitesmoke}
+.sw-i-color-03 {color: #ffb570}
+.sw-i-color-04 {color: #004d99;}
+.sw-h-color-01 {color: #f80;}
+.sw-h-color-02 {color: whitesmoke}
+.sw-btn-color-01 {color: rgba(147, 212, 157, .25);}
 
 /* Common Background Colors*/
-.sh-b-color-01 {background-color: rgb(213, 121, 102, .75);}
-.sh-b-color-02 {background-color: rgba(0, 76, 153, .75);}
+.sw-b-color-01 {background-color: rgb(213, 121, 102, .75);}
+.sw-b-color-02 {background-color: rgba(0, 76, 153, .75);}
 
 
 /* Common Positioning */
-.sh-text-center {
+.sw-text-center {
     text-align: center;
 }
 
-.sh-text-left {
+.sw-text-left {
   text-align: left;
 }
 
-.sh-padding-0 {
+.sw-padding-0 {
   padding: 0;
 }
 
 /* Spacers */
-.sh-spacer-100p {
+.sw-spacer-100p {
   width: 100%;
 }
 
 /* Sizing */
-.sh-img-100p {
+.sw-img-100p {
   width: 100%;
 }
 
 /* Header */
-.sh-logo-font {
+.sw-logo-font {
   font-family: 'Noto Sans', sans-serif;
   font-size: 2.5rem;
 }
 
-.sh-dt-sidebars {
+.sw-dt-sidebars {
   background-color: rgba(0, 76, 153, .5);
   min-height: 600px;
   border: solid 1px whitesmoke;
   border-radius: 25px;
 }
 
-.sh-delivery-banner {
+.sw-delivery-banner {
   border: solid 1px whitesmoke;
   text-align: center;
 }
 
 /* Forms */
-.sh-form-input {
+.sw-form-input {
   min-width: 20rem !important;
 }
 
-.sh-search-form {
+.sw-search-form {
   width: max-content;
 }
 
@@ -195,14 +195,14 @@ p {
           left: 0;
           z-index: 1030;
       }
-      .sh-logo-font {
+      .sw-logo-font {
         font-size: 3rem;
       }
-      .sh-cont-header {
+      .sw-cont-header {
         padding-top: 5px;
       }
   }
 
   @media (min-width: 768px) {
-    .sh-i-color-01 {color: whitesmoke}
+    .sw-i-color-01 {color: whitesmoke}
   }
