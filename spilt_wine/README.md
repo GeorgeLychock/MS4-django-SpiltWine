@@ -106,13 +106,22 @@ StreetHeat v1.0 is a patented garment accessory that provides a user extra comfo
 ### Resources Used
 -   [MDN General Web Docs: ](https://developer.mozilla.org/) For semantic structure reference, arrays, localStorage, fetch.
 -   [W3Schools.com](https://www.w3schools.com/), For Color Picker, html/css/js general refernece, semantic structure reference, arrays, localStorage.
+https://www.djangoproject.com/
 -   [For Loop Examples from pythonguides.com:](pythonguides.com/python-for-loop-index/)
 -   [Changing the port setting for Django](https://pythonistaplanet.com/how-to-change-the-default-runserver-port-in-django/) I needed to change the port since I'm running my own dev environment and not GitPod
+-   [Field data types for Django Models](https://www.geeksforgeeks.org/django-model-data-types-and-fields-list/#:~:text=Basic%20model%20data%20types%20and%20fields%20list%20,raw%20binary%20data.%20%2021%20more%20rows%20)
+-   [Migrating Data using fixtures Django](https://www.bing.com/videos/search?q=creating+django+fixtures+from+csv&view=detail&mid=21A1F428ED88293C96F021A1F428ED88293C96F0&FORM=VIRE) Instructions on how to convert csv to fixture JSON and migrate to Django
+
+Django Tutorial https://www.geeksforgeeks.org/django-tutorial/?ref=gcse
+Primary Key Best Practices https://stackoverflow.com/questions/337503/whats-the-best-practice-for-primary-keys-in-tables#:~:text=Primary%20keys%20should%20be%20as%20small%20as%20necessary
+
+JSON Convertor https://www.convertcsv.com/csv-to-json.htm
 
 
 <a name="CREDS"></a>
 # Credits
 ## Code Credits
+-   Model class methods are borrowed from Code Institute code provided in the Bontique Ado Project for the Full Stack Software Developer curriculum.
 -   html/css: Recreated the Home page using the Code Institute code provided in the Bontique Ado Project for the Full Stack Software Developer curriculum as a template. I changed the markup and styles for Bootstrap 5.1 and consolidated a number of the core BS styles into custom style groups. https://codeinstitute.net/global/
 -   RegEx input patterns from W3Schools - https://www.w3schools.com/tags/att_input_pattern.asp
 -   Avatar Icons made by [Flaticon](https://www.flaticon.com/)
