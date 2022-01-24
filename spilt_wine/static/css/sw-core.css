@@ -112,6 +112,7 @@ p {
 
 /* Common Text Colors */
 .sw-p-color-01 {color: #004d99;}
+.sw-p-color-02 {color: black;}
 .sw-i-color-01 {color: #ffb570} /* !important changed for lg media*/
 .sw-i-color-02 {color: whitesmoke}
 .sw-i-color-03 {color: #ffb570}
@@ -124,6 +125,10 @@ p {
 .sw-b-color-01 {background-color: rgb(213, 121, 102, .75);}
 .sw-b-color-02 {background-color: rgba(0, 76, 153, .75);}
 
+/* Font Sizing */
+.sw-font-size-50 {
+  font-size: .5rem;
+}
 
 /* Common Positioning */
 .sw-text-center {
