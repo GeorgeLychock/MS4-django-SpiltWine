@@ -1,6 +1,17 @@
 from django.contrib import admin
 from .models import Product, Appellation, Region, WineType, Brand, CountryState, Varietal, Style, Body
 
+class ProductAdmin(admin.ModelAdmin):
+    list_display = (
+        'sku',
+        'name',
+        'country_state',
+        'price',
+        'img_file_name',
+    )
+
+    ordering = ('name',)
+
 # Register your models here.
 admin.site.register(Appellation)
 admin.site.register(Region)
@@ -10,4 +21,4 @@ admin.site.register(CountryState)
 admin.site.register(Varietal)
 admin.site.register(Style)
 admin.site.register(Body)
-admin.site.register(Product)
+admin.site.register(Product, ProductAdmin)

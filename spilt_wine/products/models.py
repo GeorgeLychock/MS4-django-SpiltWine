@@ -1,8 +1,10 @@
+from tabnanny import verbose
 from django.db import models
 
 
 # model Classes are in order of proper database ingestion
 class Appellation(models.Model):
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -29,6 +31,10 @@ class Region(models.Model):
 
 
 class WineType(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Wine Types'
+
     name = models.CharField(max_length=30)
     friendly_name = models.CharField(max_length=50, null=True, blank=True)
 
@@ -51,6 +57,10 @@ class Brand(models.Model):
 
 
 class CountryState(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Countries States'
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
     region = models.ForeignKey('Region', null=True, blank=True, on_delete=models.SET_NULL)
@@ -86,6 +96,10 @@ class Style(models.Model):
 
 
 class Body(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Bodies'
+
     name = models.CharField(max_length=50)
     friendly_name = models.CharField(max_length=50, null=True, blank=True)
 
