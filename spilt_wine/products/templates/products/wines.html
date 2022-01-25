@@ -14,12 +14,12 @@
         <div class="col-6 col-md-4">
             <div class="card h-100 border-0">
                 {% if wine.img_file_name %}
-                <a href="">
+                <a href="{% url 'wine_detail' wine.pk %}">
                     <img class="card-img-top img-fluid mt-3" src="../media/{{ wine.img_file_name }}"
                         alt="{{ wine.name }}">
                 </a>
                 {% else %}
-                <a href="">
+                <a href="{% url 'wine_detail' wine.pk %}">
                     <img class="card-img-top img-fluid mt-3" src="{{ MEDIA_URL }}noimage.png" alt="{{ wine.name }}">
                 </a>
                 {% endif %}
