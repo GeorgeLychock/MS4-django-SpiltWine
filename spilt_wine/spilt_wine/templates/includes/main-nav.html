@@ -19,7 +19,8 @@
                         Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="mainNavDrop0">
-                        <li><a href="{% url 'products' %}" class="dropdown-item">Wines</a></li>
+                        <li><a href="{% url 'wines' %}" class="dropdown-item">Wines</a></li>
+                        <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -32,7 +33,7 @@
                         <li><a href="" class="dropdown-item ">By Rating</a></li>
                         <li><a href="" class="dropdown-item ">By Varietal</a></li>
                         <li><a href="" class="dropdown-item ">By Region</a></li>
-                        <li><a href="" class="dropdown-item">All Wines</a></li>
+                        <li><a href="{% url 'wines' %}" class="dropdown-item">All Wines</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
