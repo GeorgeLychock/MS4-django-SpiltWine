@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from .models import Wine
 
-# Create your views here.
-def all_wines(request):
+
+def all_products(request):
     """ Shows all products and handles sorting and searching. """
 
     wines = Wine.objects.all()
