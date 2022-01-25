@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Product, Appellation, Region, WineType, Brand, CountryState, Varietal, Style, Body
+from .models import Wine, Appellation, Region, WineType, Brand, CountryState, Varietal, Style, Body
 
-class ProductAdmin(admin.ModelAdmin):
+class WineAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
@@ -21,4 +21,4 @@ admin.site.register(CountryState)
 admin.site.register(Varietal)
 admin.site.register(Style)
 admin.site.register(Body)
-admin.site.register(Product, ProductAdmin)
+admin.site.register(Wine, WineAdmin)

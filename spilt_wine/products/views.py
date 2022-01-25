@@ -1,14 +1,14 @@
 from django.shortcuts import render
-from .models import Product
+from .models import Wine
 
 # Create your views here.
-def all_products(request):
+def all_wines(request):
     """ Shows all products and handles sorting and searching. """
 
-    products = Product.objects.all()
+    wines = Wine.objects.all()
 
-    context = {
-        'products': products,
+    wine_content = {
+        'wines': wines,
     }
 
-    return render(request, 'products/products.html', context)
+    return render(request, 'products/products.html', wine_content)

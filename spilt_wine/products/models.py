@@ -110,7 +110,7 @@ class Body(models.Model):
         return self.friendly_name
 
 
-class Product(models.Model):
+class Wine(models.Model):
     name = models.CharField(max_length=254)
     sku = models.CharField(max_length=254, null=True, blank=True)
     img_file_name = models.ImageField(null=True, blank=True)
